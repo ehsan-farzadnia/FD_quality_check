@@ -10,7 +10,7 @@ function FD_measures = calculateFD(MP, r, FD_threshold)
 % OUTPUT: 
 % FD_measures        - structure with filenames and data
 %__________________________________________________________________________
-% Copyright (C) Stephan Heunis 2018
+% Copyright (C) Ehsan Farzadnia 2024
 
 % Define variables
 FD_measures = struct;
