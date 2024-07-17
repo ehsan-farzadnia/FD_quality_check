@@ -1,5 +1,7 @@
-# FD_quality_check
-This script is for Framewise Displacement quality check of fMRI data. After realignment, software (SPM or FSL) produces a text file containing motion parameters. This file is further used to check whether fMRI data is realigned well. From the results of FD check, we can make a decision for despiking process. After despiking, the data is going to be realigned once more and new motion parameters are generated. We uesd these two text files for a FD checking. The output of this script is a plot demonstrating the signal before and after despiking.      
+# FD Quality Check
+
+This script checks the quality of preprocessing of fMRI images based on Framewise Displacement (FD). After realignment, software (SPM or FSL) produces a text file containing motion parameters, which are used to check whether the fMRI data are realigned correctly without any spikes. From the results of FD checking, we can decide whether to despike our signal. After despiking, the data is realigned once more and a new motion parameters file is generated. We use these old and new files for an FD check. The output of this script is a plot demonstrating the signal quality before and after despiking.
+
 
 Command: 
 -
