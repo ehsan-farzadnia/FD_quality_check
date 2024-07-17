@@ -11,4 +11,5 @@ main
 
 Sample output:
 -
-![fd](https://github.com/user-attachments/assets/e37c122f-115f-41f7-a920-4efacbd99a25)
+
+![fd](https://github.com/user-attachments/assets/3ae939f6-e858-4ee4-9312-915336799e37)
